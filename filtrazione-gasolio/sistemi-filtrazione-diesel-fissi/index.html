@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Sistemi filtrazione diesel fissi studiati per una filtrazione costante</title>
 <meta content="Sistemi filtrazione diesel fissi studiati per una filtrazione costante ed automatica del diesel contenuto in piccoli serbatoi o cisterne di stoccaggio." name="description"/>
-<link href="https://gft-local-import.local/filtrazione-gasolio/sistemi-filtrazione-diesel-fissi/" rel="canonical"/>
+<link href="/gft-preview/filtrazione-gasolio/sistemi-filtrazione-diesel-fissi/" rel="canonical"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
 <style>
@@ -306,7 +306,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 <button aria-label="Cerca" class="gft-search-toggle" onclick="gftToggleSearch()"><i class="fas fa-search"></i></button>
 <button aria-label="Menu" class="gft-hamburger" onclick="gftOpenMenu()"><i class="fas fa-bars"></i></button>
 <div class="search">
-<form action="https://gft-local-import.local" method="get">
+<form action="/gft-preview" method="get">
 <input name="s" placeholder="Cerca prodotti..." type="search"/><button aria-label="Cerca" style="background:#0a2540;color:#fff;border:0;border-radius:4px;padding:8px 12px;cursor:pointer;font-size:14px" type="submit"><i class="fas fa-search"></i></button>
 </form>
 </div>
@@ -314,7 +314,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 </div>
 <!-- Mobile Slide-down Search Bar -->
 <div class="gft-mobile-search-bar" id="gft-mob-search">
-<form action="https://gft-local-import.local" method="get">
+<form action="/gft-preview" method="get">
 <input name="s" placeholder="Cerca prodotti..." type="search"/>
 <button aria-label="Cerca" type="submit"><i class="fas fa-search"></i></button>
 </form>
@@ -324,7 +324,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 <button class="gft-close-btn" onclick="gftCloseMenu()"><i class="fas fa-times"></i> Menu</button>
 <!-- Search Box per Mobile Drawer -->
 <div class="drawer-search">
-<form action="https://gft-local-import.local" method="get">
+<form action="/gft-preview" method="get">
 <input name="s" placeholder="Cerca prodotti..." type="search"/>
 <button aria-label="Cerca" type="submit"><i class="fas fa-search"></i></button>
 </form>
@@ -597,7 +597,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 <div class="prod-card">
 <div class="prod-card-img">
 <picture>
-<source srcset="https://gft-local-import.local/wp-content/uploads/2025/04/DIESEL-DEFENDER-MINI-14-1-filtro-per-cisterne.jpeg.webp" type="image/webp"/>
+<source srcset="/gft-preview/wp-content/uploads/2025/04/DIESEL-DEFENDER-MINI-14-1-filtro-per-cisterne.jpeg.webp" type="image/webp"/>
 <img alt="DIESEL DEFENDER MINI 14" src="/gft-preview/wp-content/uploads/2025/04/DIESEL-DEFENDER-MINI-14-1-filtro-per-cisterne.jpeg">
 </img></picture>
 </div>
@@ -605,11 +605,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 <div>
 <h3>DIESEL DEFENDER MINI 14</h3>
 <div class="prod-desc">
-              Unità per filtrazione diesel e assorbimento acqua
-Portata fino a 14 litri/minuto (840 litri/ora)
-ideale per serbatoi fino a 1.000 litri
-filtrazione 10 micron assorbente
-made in italy by gft srl
+              Unità per filtrazione diesel e assorbimento acqua
+
+Portata fino a 14 litri/minuto (840 litri/ora)
+
+ideale per serbatoi fino a 1.000 litri
+
+filtrazione 10 micron assorbente
+
+made in italy by gft srl
+
 certificazione ce            </div>
 </div>
 <div>
@@ -624,7 +629,7 @@ certificazione ce            </div>
 <div class="prod-card">
 <div class="prod-card-img">
 <picture>
-<source srcset="https://gft-local-import.local/wp-content/uploads/2024/03/DIESEL-DEFENDER-79-X-1-1030x1030.jpg.webp" type="image/webp"/>
+<source srcset="/gft-preview/wp-content/uploads/2024/03/DIESEL-DEFENDER-79-X-1-1030x1030.jpg.webp" type="image/webp"/>
 <img alt="DIESEL DEFENDER 79 X" src="/gft-preview/wp-content/uploads/2024/03/DIESEL-DEFENDER-79-X-1-1030x1030.jpg">
 </img></picture>
 </div>
@@ -632,10 +637,14 @@ certificazione ce            </div>
 <div>
 <h3>DIESEL DEFENDER 79 X</h3>
 <div class="prod-desc">
-              Unita’ autonoma di filtrazione cisterne gasolio<br/>
-Filtrazione 10 micron separazione acqua<br/>
-Per serbatoi fino a 30.000 litri<br/>
-Portata fino a 79 litri/minuto (4740 litri/ora)<br/>
+              Unita’ autonoma di filtrazione cisterne gasolio<br/>
+
+Filtrazione 10 micron separazione acqua<br/>
+
+Per serbatoi fino a 30.000 litri<br/>
+
+Portata fino a 79 litri/minuto (4740 litri/ora)<br/>
+
 Certificazione <b>CE</b> </div>
 </div>
 <div>
@@ -691,7 +700,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Se l'utente ha gia' compilato il form in questa sessione, salta e scarica
             if (localStorage.getItem('gft_pdf_form_filled') === 'true') {
-                window.location.href = 'https://gft-local-import.local/download-pdf.php?file=' + encodeURIComponent(currentPdf);
+                window.location.href = '/gft-preview/download-pdf.php?file=' + encodeURIComponent(currentPdf);
             } else {
                 modal.classList.add('active');
             }
@@ -718,7 +727,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('gft_pdf_form_filled', 'true');
         
         // Avvia il download sicuro
-        window.location.href = 'https://gft-local-import.local/download-pdf.php?file=' + encodeURIComponent(currentPdf);
+        window.location.href = '/gft-preview/download-pdf.php?file=' + encodeURIComponent(currentPdf);
     });
 });
 </script>
