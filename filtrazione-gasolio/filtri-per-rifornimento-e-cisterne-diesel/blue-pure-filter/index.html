@@ -7,10 +7,14 @@
 <title>Filtro erogatore BLUE PURE FILTER</title>
 <meta content="Sistema di filtrazione BLUE PURE FILTER progettato per l'uso in cisterne e stazioni di rifornimento, specificamente per il trattamento del liquido AD Blue." name="description"/>
 <link href="/gft-preview/filtri-per-rifornimento-diesel-adblue/blue-pure-filter/" rel="canonical"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin=""/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'"/>
 <style>
-:root{--navy:#0a2540;--navy-deep:#06192c;--gold:#f5b301;--gold-deep:#8f6800;--gold-text:#8f6800;--ink:#1a2b3c;--ink-soft:#51637a;--paper:#f5f7fa;--white:#fff;--line:#8e9399;--gft-cat-blue:#0073b6;--gft-cat-orange:#a05f13;--gft-cat-green:#007f3a;--gft-cat-dark-green:#68742d;--gft-cat-light-blue:#197a7b}
+:root{--navy:#0a2540;--navy-deep:#06192c;--gold:#f5b301;--gold-deep:#8f6800;--gold-text:#8f6800;--ink:#1a2b3c;--ink-soft:#455668;--paper:#f5f7fa;--white:#fff;--line:#8e9399;--gft-cat-blue:#0073b6;--gft-cat-orange:#a05f13;--gft-cat-green:#007f3a;--gft-cat-dark-green:#68742d;--gft-cat-light-blue:#197a7b}
 *{margin:0;padding:0;box-sizing:border-box}
 img{max-width:100%;height:auto}
 body{font-family:"Barlow Semi Condensed",system-ui,sans-serif;color:var(--ink);background:var(--white)}
@@ -18,7 +22,7 @@ body{font-family:"Barlow Semi Condensed",system-ui,sans-serif;color:var(--ink);b
 /* TOP BAR */
 .top-bar{background:#1a1a1a;color:rgba(255,255,255,.7);font-size:13px;padding:6px 5%;display:flex;justify-content:space-between;align-items:center}
 .top-bar a{color:rgba(255,255,255,.85);text-decoration:none}.top-bar a:hover{color:var(--gold)}
-.top-bar .social a{margin-right:12px}
+.top-bar .social a{margin-right:4px;display:inline-block;padding:8px 10px}
 
 /* HEADER */
 .header{position:relative;background:var(--white);padding:12px 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee}
@@ -31,7 +35,7 @@ body{font-family:"Barlow Semi Condensed",system-ui,sans-serif;color:var(--ink);b
 .header .search button{background:var(--navy);color:#fff;border:0;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:16px}
 
 /* NAV DESKTOP */
-.gft-hamburger{display:none;background:none;border:none;cursor:pointer;padding:8px;font-size:22px;color:#0a2540}
+.gft-hamburger{display:none;background:none;border:none;cursor:pointer;padding:12px;font-size:22px;color:#0a2540;min-width:48px;min-height:48px;align-items:center;justify-content:center}
 .nav-gold{background:var(--gold);padding:0 5%;display:flex;align-items:stretch;justify-content:flex-start;position:relative;z-index:1000}
 .nav-gold>a,.nav-gold .gft-nav-item>a{color:var(--navy);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.03em;padding:13px 18px;text-decoration:none;white-space:nowrap;transition:background .2s;display:flex;align-items:center;gap:5px;height:100%}
 @media(min-width:769px) and (max-width:1100px){
@@ -183,8 +187,8 @@ body{font-family:"Barlow Semi Condensed",system-ui,sans-serif;color:var(--ink);b
 .footer-col a{color:rgba(255,255,255,.8);text-decoration:none;transition:color .2s;display:inline-flex;align-items:center;gap:6px}
 .footer-col a:hover{color:var(--gold)}
 .footer-col i{color:var(--gold);opacity:.7}
-.footer-bottom{text-align:center;border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:20px;color:rgba(255,255,255,.4);font-size:10.5px}
-.footer-credit{text-align:center;color:rgba(255,255,255,.3);font-size:9.5px;margin-top:8px}
+.footer-bottom{text-align:center;border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:20px;color:rgba(255,255,255,.65);font-size:10.5px}
+.footer-credit{text-align:center;color:rgba(255,255,255,.55);font-size:9.5px;margin-top:8px}
 
 @media(max-width:992px){
   .footer-grid{grid-template-columns:repeat(2,1fr);gap:30px}
@@ -270,7 +274,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 
 /* MOBILE SEARCH & PARKER FIXES */
-.gft-search-toggle{display:none;background:none;border:none;cursor:pointer;padding:8px;font-size:20px;color:var(--navy);align-items:center;justify-content:center}
+.gft-search-toggle{display:none;background:none;border:none;cursor:pointer;padding:12px;font-size:20px;color:var(--navy);align-items:center;justify-content:center;min-width:48px;min-height:48px}
 .gft-mobile-search-bar{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);border-bottom:1.5px solid var(--gold);padding:12px 5%;box-shadow:0 8px 16px rgba(0,0,0,.08);z-index:999}
 .gft-mobile-search-bar.gft-open{display:block}
 .gft-mobile-search-bar form{display:flex;gap:8px}
@@ -296,12 +300,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 <div class="header">
 <div class="logo">
 <a href="/gft-preview/">
-<img alt="GFT Filtrazione" src="/gft-preview/wp-content/uploads/2024/05/logo-GFT-srl-2026.png"/>
+<img alt="GFT Filtrazione" src="/gft-preview/wp-content/uploads/2024/05/logo-GFT-srl-2026.png" width="300" height="292" fetchpriority="high"/>
 </a>
 </div>
 <div class="right-area">
 <div class="parker">
-<img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png"/>
+<img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png" width="150" height="89" loading="lazy"/>
 </div>
 <button aria-label="Cerca" class="gft-search-toggle" onclick="gftToggleSearch()"><i class="fas fa-search"></i></button>
 <button aria-label="Menu" class="gft-hamburger" onclick="gftOpenMenu()"><i class="fas fa-bars"></i></button>
@@ -411,7 +415,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 </div>
 <!-- Logo Parker per Mobile Drawer -->
 <div class="drawer-footer">
-<img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png"/>
+<img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png" width="150" height="89" loading="lazy"/>
 <p>Distributore Ufficiale</p>
 </div>
 </nav>

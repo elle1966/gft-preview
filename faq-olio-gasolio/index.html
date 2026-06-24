@@ -184,7 +184,7 @@ var breeze_prefetch = {"local_url":"/gft-preview","ignore_remote_prefetch":"1","
 @media(max-width:768px){.gft-footer-grid{grid-template-columns:1fr 1fr}.gft-nav{overflow-x:auto}}
 body{font-family:"Barlow Semi Condensed",system-ui,sans-serif!important}
 
-.gft-hamburger{display:none;background:none;border:none;cursor:pointer;padding:8px;font-size:22px;color:#0a2540}
+.gft-hamburger{display:none;background:none;border:none;cursor:pointer;padding:12px;font-size:22px;color:#0a2540;min-width:48px;min-height:48px;align-items:center;justify-content:center}
 .gft-nav .gft-close-btn{display:none;background:none;border:none;color:#0a2540;font-size:20px;cursor:pointer;padding:12px 18px;margin-left:auto;font-weight:700}
 @media(max-width:768px){
   .gft-hamburger{display:block}
@@ -221,9 +221,9 @@ body{font-family:"Barlow Semi Condensed",system-ui,sans-serif!important}
 </div>
 <div class="gft-overlay" id="gft-overlay" onclick="document.getElementById('gft-nav').classList.remove('gft-open');this.classList.remove('gft-open')"></div>
 <div class="gft-header">
-<div class="gft-logo"><a href="/gft-preview/"><img alt="GFT Filtrazione" src="/gft-preview/wp-content/uploads/2024/05/logo-GFT-srl-2026.png"/></a></div>
+<div class="gft-logo"><a href="/gft-preview/"><img alt="GFT Filtrazione" src="/gft-preview/wp-content/uploads/2024/05/logo-GFT-srl-2026.png" width="300" height="292" fetchpriority="high"/></a></div>
 <div class="gft-right">
-<div class="gft-parker"><img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png"/></div>
+<div class="gft-parker"><img alt="Parker Filtration" src="/gft-preview/wp-content/uploads/2024/07/parker-Leader-mondiale-nelle-tecnologie-di-movimentazione-e1769169608777.png" width="150" height="89" loading="lazy"/></div>
 <button aria-label="Menu" class="gft-hamburger" onclick="document.getElementById('gft-nav').classList.add('gft-open');document.getElementById('gft-overlay').classList.add('gft-open')"><i class="fas fa-bars"></i></button>
 <div class="gft-search"><form action="/gft-preview" method="get"><input name="s" placeholder="Cerca prodotti..." type="search"/><button aria-label="Cerca" style="background:#0a2540;color:#fff;border:0;border-radius:4px;padding:8px 12px;cursor:pointer;font-size:14px" type="submit"><i class="fas fa-search"></i></button></form></div>
 </div>
